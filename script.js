@@ -300,8 +300,15 @@ function rules() {
     `<h2>HOW TO PLAY</h2><ul class="rules"><li>Answer 10 random questions.</li><li>You start with 3 lives ❤️.</li><li>Correct answers give 100 points plus speed and streak bonuses.</li><li>Wrong answers or timeouts cost one life.</li><li>Each question has 20 seconds.</li><li>Build streaks 🔥 for extra points.</li></ul>`;
   $("modal").classList.add("show");
 }
+function members() {
+  $("modalContent").innerHTML =
+    `<h2>MEMBERS</h2><ul class="rules"><li>LAUTARO EGBER STERIN.</li><li>LEONARDO POGGIO.</li><li>THEO GIMENEZ.</li><li>MICAELA WAIZER.</li><li>NICOLAS AGGOLLIA.</li><li>JUAQUIN URRUSTARAZU .</li></ul>`;
+  $("modal").classList.add("show");
+}
+
 $("startBtn").onclick = startGame;
 $("rankingBtn").onclick = ranking;
+$("integraBtn").onclick = members;
 $("resultRankingBtn").onclick = ranking;
 $("rulesBtn").onclick = rules;
 $("playAgainBtn").onclick = () => show("startScreen");
