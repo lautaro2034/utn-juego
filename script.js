@@ -302,7 +302,7 @@ function rules() {
 }
 function members() {
   $("modalContent").innerHTML =
-    `<h2>MEMBERS</h2><ul class="rules"><li>LAUTARO EGBER STERIN.</li><li>LEONARDO POGGIO.</li><li>THEO GIMENEZ.</li><li>MICAELA WAIZER.</li><li>NICOLAS AGGOLLIA.</li><li>JUAQUIN URRUSTARAZU .</li></ul>`;
+    `<h2>MEMBERS</h2><ul class="rules"><li>LAUTARO EGBER STERIN.</li><li>LEONARDO POGGIO.</li><li>THEO GIMENEZ.</li><li>MICAELA WAIZER.</li><li>NICOLAS AGGOLLIA.</li><li>JUAQUIN URRUSTARAZU.</li><li>TOMAS COSCARELLI.</li></ul>`;
   $("modal").classList.add("show");
 }
 
